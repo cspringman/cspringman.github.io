@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 20px;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 20px;
 }
@@ -39,6 +39,7 @@ section {
     background-color: black;
     background-image: url(cspringman-1.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section.cspringman-2 {
