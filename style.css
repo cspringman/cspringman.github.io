@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 20px;
 }
@@ -32,4 +32,23 @@ a {
 
 a:hover {
     color: red;
+}
+
+section {
+    height: 100vh;
+    background-color: black;
+    background-image: url(cspringman-1.jpg);
+    background-size: cover;
+}
+
+section.cspringman-2 {
+    background-image: url(cspringman-2.jpg);
+}
+
+section.cspringman-3 {
+    background-image: url(cspringman-3.jpg);
+}
+
+section.cspringman-4 {
+    background-image: url(cspringman-4.jpg);
 }
