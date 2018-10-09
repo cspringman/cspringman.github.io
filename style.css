@@ -53,3 +53,16 @@ section.cspringman-3 {
 section.cspringman-4 {
     background-image: url(cspringman-4.jpg);
 }
+
+@media (max-width: 600px) {
+    header {
+        top: 10px;
+    }
+    footer {
+        bottom: 10px;
+        left: 10px;
+    }
+    section {
+        background-attachment: scroll;
+    }
+}
