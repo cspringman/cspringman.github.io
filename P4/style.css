@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica;
     font-size: 24px;
@@ -21,10 +25,15 @@ header h1 {
 
 header nav {
     float: right;
+    padding: 24px;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -34,4 +43,8 @@ footer p {
 
 footer nav {
     float: right;
+}
+
+footer img {
+    width: 24px;
 }
