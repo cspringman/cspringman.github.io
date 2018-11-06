@@ -66,6 +66,21 @@ div h2 {
     font-size: 36px;
     line-height: 1.2;
     text-align: left;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+div:hover h2 {
+    opacity: 1;
+}
+
+div img {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+div:hover img {
+    opacity: 0.5;
 }
 
 footer {
