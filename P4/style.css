@@ -11,7 +11,11 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -25,7 +29,13 @@ header h1 {
 
 header nav {
     float: right;
-    padding: 24px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-bottom: 2px solid white;
 }
 
 footer {
