@@ -6,7 +6,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
-    margin: 40px auto;
+    margin: 0px auto;
     background-color: #000000;
 }
 
@@ -19,6 +19,7 @@ header {
 
 .container {
     position: absolute;
+    margin-top: -100px;
     width: 100%;
     height: 600px;
     text-align: center;
@@ -71,9 +72,14 @@ section img {
     width: 80%;
 }
 
+div.artist {
+    width: 800px;
+    margin: auto;
+}
+
 h1 {
     font-size: 150px;
-    line-height: .3;
+    line-height: 1;
 }
 
 h2 {
@@ -88,7 +94,7 @@ h3 {
 }
 
 p {
-    margin: 0px 0px 10px;
+    margin: 0px 50px 10px;
 }
 
 footer {
@@ -131,5 +137,8 @@ footer {
     }
     section {
         background-attachment: scroll;
+    }
+    h1 {
+        font-size: 70px;
     }
 }
