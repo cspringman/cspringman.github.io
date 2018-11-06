@@ -17,6 +17,7 @@ header {
     width: 100%;
     padding: 20px;
     overflow: hidden;
+    z-index: 1;
 }
 
 header img {
@@ -77,6 +78,7 @@ div:hover h2 {
 div img {
     opacity: 1;
     transition: opacity 1s;
+    max-width: 100%;
 }
 
 div:hover img {
