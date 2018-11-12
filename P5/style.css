@@ -33,3 +33,23 @@ header h1 {
 header nav {
     float: right;
 }
+
+section.hero {
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #bfbfb7;
+    padding: 90px 0px 100px;
+}
+
+section.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 480px;
+}
+
+section.hero h3 {
+    font-size: 24px;
+    max-width: 400px;
+    margin: 20px 0 0 0;
+}
