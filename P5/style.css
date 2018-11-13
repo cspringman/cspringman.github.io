@@ -66,12 +66,18 @@ section.products nav a {
     text-decoration: none;
     color: black;
     margin: 0 10px 0 0;
-    
 }
 
+section.products nav a.selected {
+    border-bottom: 3px solid yellow;
+}
 
-
-
+div.product {
+    background-color: yellow;
+    width: 320px;
+    float: left;
+    position: relative;
+}
 
 
 
