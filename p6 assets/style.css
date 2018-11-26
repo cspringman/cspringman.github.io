@@ -45,8 +45,30 @@ section.onething img {
     width: 600px;
 }
 
-section.natural div {
+section.onething div {
     float: left;
     width: 510px;
     margin: 60px -150px 0 0;
+}
+
+section.onething h3 {
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+section.onething p {
+    margin: 0 0 10px 0;
+}
+
+section.lookbook {
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    padding: 250px 0 0 0;
+    margin: 0 0 60px 0;
+    text-align: center;
+    color: white;
+    font-size: 64px.
+    font-weight: bold;
 }
