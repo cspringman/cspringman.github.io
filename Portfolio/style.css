@@ -120,6 +120,8 @@ div.art:hover p {
     }
     div.art {
         width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     section.hero h2 {
         font-size: 24px;
@@ -128,8 +130,3 @@ div.art:hover p {
         font-size: 18px;
     }
 }
-
-
-
-
-
