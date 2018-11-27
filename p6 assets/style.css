@@ -70,5 +70,68 @@ section.lookbook {
     text-align: center;
     color: white;
     font-size: 64px.
-    font-weight: bold;
+    font-weight: 700;
+}
+
+section.collection img {
+    float: left;
+    width: 700px;
+}
+
+section.collection div {
+    float: right;
+    width: 310px;
+    margin: 100px 0 0 -50px;
+    font-size: 48px;
+}
+
+section img {
+    position: relative;
+    z-index: -1;
+    transition: all 1s;
+}
+
+section:hover img {
+    opacity: 0.75;
+    transform: scale(.90) rotate(-3deg);
+}
+
+div.hamburger {
+    background-image: url(menu-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}
+
+div.slideout {
+    position: fixed;
+    top: 0;
+    left: -290px;
+    width: 300px;
+    height: 100%;
+    background-color: pink;
+    transition: left 1s;
+}
+
+div.hamburger:hover div.slideout {
+    left: 0;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    width: 200px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
 }
