@@ -120,6 +120,19 @@ div.art:hover p {
     padding: 0 435px 0 80px;
 }
 
+.send {
+    float: right;
+    margin: 40px 0 0 0;
+}
+
+.socials img {
+    width: 50px;
+}
+
+.email {
+    margin: 40px 0 0 0;
+}
+
 @media (max-width: 1000px) {
     div.wrap {
         width: 640px;
