@@ -106,18 +106,15 @@ div.art:hover p {
 }
 
 .about {
+    max-width: 1000px;
+    margin: 80px auto;
     text-align: center;
-    padding: 40px 0 0 0;
 }
 
 .about img {
-    width: 400px;
-    padding: 0px 40px 40px 40px;
-}
-
-.about p {
-    text-align: center;
-    padding: 0 435px 0 80px;
+    float: right;
+    width: 300px;
+    margin-left: 100px;
 }
 
 .send {
@@ -127,6 +124,7 @@ div.art:hover p {
 
 .socials img {
     width: 50px;
+    margin: 10px
 }
 
 .email {
@@ -140,6 +138,10 @@ div.art:hover p {
 }
 
 @media (max-width: 680px) {
+    .about img {
+        float: none;
+        margin: auto;
+    }
     div.wrap {
         width: auto;
         margin: 0 20px 0 20px;
