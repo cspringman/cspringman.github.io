@@ -107,14 +107,17 @@ div.art:hover p {
 
 .about {
     text-align: center;
+    padding: 40px 0 0 0;
 }
 
 .about img {
-    
+    width: 400px;
+    padding: 0px 40px 40px 40px;
 }
 
 .about p {
     text-align: center;
+    padding: 0 435px 0 80px;
 }
 
 
