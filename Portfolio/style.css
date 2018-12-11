@@ -138,7 +138,7 @@ div.art:hover p {
 }
 
 .contact {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 80px auto;
 }
 
@@ -146,9 +146,16 @@ div.art:hover p {
     float: right
 }
 
-.socials {
-    float: left;
+.socials h1 {
+    line-height: 1.5;
+    font-size: 25px
+}
+
+.socials img {
     width: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px
 }
 
 
