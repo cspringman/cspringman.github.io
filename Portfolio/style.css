@@ -117,19 +117,40 @@ div.art:hover p {
     margin-left: 100px;
 }
 
-.send {
-    float: right;
-    margin: 40px 0 0 0;
+.about h1 {
+    line-height: 4;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.socials img {
+.about h2 {
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+.resume img {
+    width: 800px
+}
+
+.contact {
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.contact form {
+    float: right
+}
+
+.socials {
+    float: left;
     width: 50px;
-    margin: 10px
 }
 
-.email {
-    margin: 40px 0 0 0;
-}
 
 @media (max-width: 1000px) {
     div.wrap {
